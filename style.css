@@ -1,3 +1,61 @@
-h1 {
-    color: red;
+.container {
+    width: 1140px;
+    height: 6972px;
+    margin: 0 auto;
 }
+
+.header {
+    background-image: url(images/heroimage.png);
+    height: 595px;
+    width: 1140px;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+
+nav ul {
+    display: flex;
+    justify-content: space-between;   
+font-family: aller, sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+li a:hover {
+    color:#EDD9BF;
+  }
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+    background-color: #3D2E19;
+}
+
+.nav-logo img {
+    width: 69.13px;
+    height: 40.12px;
+    padding: 15px;
+}
+
+.hero-title img {
+    width: 580px;
+    height: 326.736px;
+    position: absolute;
+    top: 100px;
+    left: 50px;
+}
+
+nav ul li {
+    list-style: none;
+   
+}
+
+nav li a {
+    text-decoration: none;
+    color: #D6B252;
+    padding: 10px;
+}
+
+
