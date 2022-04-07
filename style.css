@@ -9,7 +9,9 @@
     height: 595px;
     width: 1140px;
     background-repeat: no-repeat;
+    background-size: cover;
     position: relative;
+    background-position: bottom;
 }
 
 
@@ -57,5 +59,98 @@ nav li a {
     color: #D6B252;
     padding: 10px;
 }
+
+.bio {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px; 
+}
+
+.growing {
+    display: flex;
+    gap: 15px;
+    background-color: #F2F2F2;
+}
+.left-col {
+    width: 50%;
+}
+
+.left-col img {
+    width: 100%;
+}
+
+.right-col {
+    width: 50%;
+}
+
+
+.family-card {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+}
+
+.card {
+    width: 258px;
+    height: 696px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+    background-color: #D6B252;
+}
+
+
+.family {
+    text-align: center;
+    background-color: #46482D;
+    height: 895px;
+    width: 1140px;
+}
+
+.family 
+
+.zoo {
+    background-image: url(images/zoo.png);
+    width: 1140px;
+    height: 753px;
+}
+
+.zooinfo {
+    background-color: rgba(139, 63, 8, 66%);
+    width: 600px;
+    height: 480px;
+    margin-left: 20px;
+    padding:10px;
+}
+
+.zooinfo h2 {
+    font-family: ronnia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+}
+
+button {
+    padding: 10px 15px;
+    border-radius: 25px;
+    border: none;
+    background: #F8953D;
+    color: white;
+    display: block;
+    margin: 20px auto;
+}
+
+h1 {
+font-family: ronnia, sans-serif;
+font-weight: 600;
+font-style: normal;
+color: #D6B252;
+}
+ h2 {
+    font-family: ronnia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+ }
+
 
 
