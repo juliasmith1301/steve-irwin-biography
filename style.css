@@ -84,6 +84,7 @@ nav li a {
 }
 
 
+
 .family-card {
     display: flex;
     justify-content: center;
@@ -107,12 +108,17 @@ nav li a {
     width: 1140px;
 }
 
-.family 
+.family h1 {
+    padding-top: 40px;
+}
+
 
 .zoo {
     background-image: url(images/zoo.png);
     width: 1140px;
     height: 753px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
 }
 
 .zooinfo {
@@ -120,7 +126,15 @@ nav li a {
     width: 600px;
     height: 480px;
     margin-left: 20px;
-    padding:10px;
+    margin-top: 30px;
+    padding: 5px;
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: white;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .zooinfo h2 {
@@ -138,7 +152,28 @@ button {
     color: white;
     display: block;
     margin: 20px auto;
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    display: inline-block;
 }
+
+.zooinfo img {
+    width: 89px;
+    height: 45px;
+}
+
+.visitthezoo {
+    color: white;
+    display: block;
+}
+
+.theaustraliazoo {
+    display: block;
+
+}
+
 
 h1 {
 font-family: ronnia, sans-serif;
@@ -146,11 +181,71 @@ font-weight: 600;
 font-style: normal;
 color: #D6B252;
 }
+
  h2 {
     font-family: ronnia, sans-serif;
     font-weight: 600;
     font-style: normal;
  }
 
+ .card h2 {
+    font-family: alkaline-caps, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: #8B3F08;
+    font-size: 50px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+ }
 
+.family p {
+font-family: aller, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;
+color: #8B3F08;
+padding-left: 20px;
+padding-right: 20px;
+}
 
+.hunter {
+background-color: #46482D;
+}
+
+.hunter h1 {
+    text-align: center;
+    padding-top: 20px;
+    color: white;
+}
+
+.hunter img {
+    margin-left: 40px;
+}
+
+.hunter .play {
+    height: 96px;
+    width: 90px;
+}
+
+.hunter a {
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.bodycopy {
+font-family: aller, sans-serif;
+font-weight: 300;
+font-style: normal;
+color: white;
+font-size: 16px;
+}
+
+.caption {
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: bold;
+    color: white;
+    font-size: 16px;  
+}
