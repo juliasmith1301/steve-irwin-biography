@@ -64,24 +64,73 @@ nav li a {
     display: flex;
     gap: 15px;
     margin-top: 20px; 
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: grey;
+    font-size: 16px;
+}
+
+.bio h1 {
+    font-size: 40px;
+}
+
+.bio img {
+  width: 627px;
+  height: 525px;  
 }
 
 .growing {
     display: flex;
+    justify-content: center;
     gap: 15px;
     background-color: #F2F2F2;
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: grey;
+    font-size: 16px;
+    height: 674px;
+    width: 1140px;
 }
-.left-col {
+
+.two-col {
+    display: flex;
+    gap: 15px;
+}
+.text-col {
     width: 50%;
 }
 
-.left-col img {
+.image-col {
+    width: 50%;
+}
+
+.image-col img {
     width: 100%;
 }
 
-.right-col {
-    width: 50%;
+.heading-icon {
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
+
+.growing h1 {
+    font-size: 40px;
+}
+
+.growing .left-col img {
+height: 38px;
+width: 50px;
+}
+
+
+
+
+
+
+
 
 
 
@@ -110,6 +159,7 @@ nav li a {
 
 .family h1 {
     padding-top: 40px;
+    font-size: 40px;
 }
 
 
@@ -137,6 +187,10 @@ nav li a {
     padding-right: 30px;
 }
 
+.zooinfo h1 {
+    font-size: 40px;
+}
+
 .zooinfo h2 {
     font-family: ronnia, sans-serif;
     font-weight: 600;
@@ -159,6 +213,11 @@ button {
     display: inline-block;
 }
 
+
+button:hover {
+    background-color: #EDD9BF;
+  }
+
 .zooinfo img {
     width: 89px;
     height: 45px;
@@ -167,11 +226,11 @@ button {
 .visitthezoo {
     color: white;
     display: block;
+    margin-left: 55px;
 }
 
 .theaustraliazoo {
     display: block;
-
 }
 
 
@@ -215,8 +274,9 @@ background-color: #46482D;
 
 .hunter h1 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
     color: white;
+    font-size: 40px;
 }
 
 .hunter img {
@@ -243,9 +303,30 @@ font-size: 16px;
 }
 
 .caption {
-    font-family: aller, sans-serif;
-    font-weight: 300;
-    font-style: bold;
-    color: white;
-    font-size: 16px;  
+font-family: aller, sans-serif;
+font-weight: 700;
+font-style: negreta;
+font-size: 16px;
+color: white;
+}
+
+.achievements {
+font-family: aller, sans-serif;
+font-weight: 300;
+font-style: normal;
+color: grey;
+font-size: 16px;
+}
+
+.animal-icon {
+    height: 38px;
+    width: 50px;
+    }
+
+.animals h3 {
+font-family: aller, sans-serif;
+font-weight: 700;
+font-style: negreta;
+color: #8B3F08;
+font-size: 36px;
 }
