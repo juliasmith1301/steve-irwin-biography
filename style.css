@@ -1,6 +1,5 @@
 .container {
     width: 1140px;
-    height: 6972px;
     margin: 0 auto;
 }
 
@@ -71,6 +70,7 @@ nav li a {
     font-size: 16px;
 }
 
+
 .bio h1 {
     font-size: 40px;
 }
@@ -97,9 +97,22 @@ nav li a {
 .two-col {
     display: flex;
     gap: 15px;
+    margin-top: 25px;
 }
 .text-col {
     width: 50%;
+}
+
+.text-col h1 {
+    font-size: 40px;
+}
+
+.text-col p {
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: grey;
+    font-size: 16px;
 }
 
 .image-col {
@@ -129,11 +142,6 @@ width: 50px;
 
 
 
-
-
-
-
-
 .family-card {
     display: flex;
     justify-content: center;
@@ -154,11 +162,11 @@ width: 50px;
     text-align: center;
     background-color: #46482D;
     height: 895px;
-    width: 1140px;
+    padding-top: 40px;
+
 }
 
 .family h1 {
-    padding-top: 40px;
     font-size: 40px;
 }
 
@@ -189,6 +197,7 @@ width: 50px;
 
 .zooinfo h1 {
     font-size: 40px;
+    margin-top: 20px;
 }
 
 .zooinfo h2 {
@@ -196,6 +205,10 @@ width: 50px;
     font-weight: 600;
     font-style: normal;
     color: white;
+}
+
+.visitthezoo h2 {
+    margin-bottom:0;
 }
 
 button {
@@ -223,14 +236,24 @@ button:hover {
     height: 45px;
 }
 
+.animal-icon-cont {
+    width: 60px;
+}
+.animal-icon {
+    width: 100%;
+}
+
 .visitthezoo {
     color: white;
     display: block;
     margin-left: 55px;
 }
 
-.theaustraliazoo {
-    display: block;
+.titles {
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+    gap: 10px;
 }
 
 
@@ -268,60 +291,69 @@ padding-left: 20px;
 padding-right: 20px;
 }
 
-.hunter {
-background-color: #46482D;
+.crochunter {
+    background-color: #46482D;
+font-family: aller, sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 16px;
+    color: white;
+    padding: 15px;
 }
 
-.hunter h1 {
+.crochunter h2 {
     text-align: center;
-    padding-top: 30px;
-    color: white;
     font-size: 40px;
 }
 
-.hunter img {
-    margin-left: 40px;
+.cardsection {
+ display: flex;
+ justify-content: center;
 }
 
-.hunter .play {
-    height: 96px;
-    width: 90px;
+.card-1 {
+    width: 560px;
+    padding-right: 20px;
+    font-weight: 400;
 }
 
-.hunter a {
-    position: relative;
-    top: 50%;
-    left: 50%;
+.card-1 img {
+    width: 100%;
 }
 
-.bodycopy {
-font-family: aller, sans-serif;
-font-weight: 300;
-font-style: normal;
-color: white;
-font-size: 16px;
+.card-2 {
+    width: 254px;
+    padding-right: 10px;
 }
 
-.caption {
-font-family: aller, sans-serif;
-font-weight: 700;
-font-style: negreta;
-font-size: 16px;
-color: white;
-}
 
 .achievements {
-font-family: aller, sans-serif;
-font-weight: 300;
-font-style: normal;
-color: grey;
-font-size: 16px;
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+        color: grey;
+        padding: 10px;
 }
 
-.animal-icon {
-    height: 38px;
-    width: 50px;
-    }
+.achievements h2 {
+font-family: ronnia, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 40px;
+color: #D6B252;
+text-align: center;
+}
+
+
+.animals h1{
+font-family: ronnia, sans-serif;
+font-weight: 600;
+font-style: normal;
+font-size: 40px;
+color: #D6B252;
+text-align: center;
+}
 
 .animals h3 {
 font-family: aller, sans-serif;
