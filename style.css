@@ -19,8 +19,8 @@ body {
 
 
 nav ul {
-    display: flex;
-    justify-content: space-between;   
+display: flex;
+justify-content: space-between;   
 font-family: aller, sans-serif;
 font-weight: 400;
 font-style: normal;
@@ -384,11 +384,56 @@ font-size: 36px;
 .animal-text {
     width: 50%;
     margin: 0 auto;
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #8B3F08;
 }
 
 .yellowbox {
     height: 338px;
     background-color: #D6B252;
+    margin-bottom: 30px;
 }
 
+footer {
+background: #3D2E19;
+padding: 15px;
+color: #D6B252;
+font-family: alkaline-caps, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+}
+
+
+footer p {
+color: #D6B252;
+font-family: alkaline-caps, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+margin-left: 130px;
+}
+
+footer ul {
+    display: flex;
+    gap: 18px;
+    padding: 0 25px;
+    margin-left: 113px;
+}
+
+footer li a {
+    color: #D6B252;
+font-family: alkaline-caps, sans-serif;
+font-weight: 700;
+font-style: normal;
+font-size: 18px;
+text-decoration: none;
+}
+
+footer ul li {
+    list-style: none;
+}
 
