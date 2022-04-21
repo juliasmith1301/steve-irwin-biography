@@ -362,3 +362,21 @@ font-style: negreta;
 color: #8B3F08;
 font-size: 36px;
 }
+
+.yellowbox {
+    height: 338px;
+    width: 819px;
+    background-color: #D6B252;
+}
+
+.container-animals {
+    display: flex;
+}
+
+.card1 {
+    background: #D6B252;
+}
+
+.card2 {
+    background: #D6B252;
+}
