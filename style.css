@@ -1,3 +1,7 @@
+body {
+    padding: 0;
+    margin: 0;
+}
 .container {
     width: 1140px;
     margin: 0 auto;
@@ -363,20 +367,28 @@ color: #8B3F08;
 font-size: 36px;
 }
 
-.yellowbox {
-    height: 338px;
-    width: 819px;
-    background-color: #D6B252;
-}
-
-.container-animals {
+.animals-section {
     display: flex;
 }
 
-.card1 {
-    background: #D6B252;
+.animal-image-left {
+    position: relative;
+    left: 150px;
 }
 
-.card2 {
-    background: #D6B252;
+.animal-image-right {
+    position: relative;
+    right: 150px;
 }
+
+.animal-text {
+    width: 50%;
+    margin: 0 auto;
+}
+
+.yellowbox {
+    height: 338px;
+    background-color: #D6B252;
+}
+
+
