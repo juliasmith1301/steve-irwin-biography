@@ -4,13 +4,13 @@ body {
 }
 .container {
     width: 1140px;
-    margin: 0 auto;
+    margin: 25px auto;
 }
 
 .header {
     background-image: url(images/heroimage.png);
-    height: 595px;
-    width: 1140px;
+    height: 100vh;
+  
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -100,15 +100,16 @@ nav li a {
 
 .two-col {
     display: flex;
-    gap: 15px;
-    margin-top: 25px;
+    flex-wrap: wrap;
 }
 .text-col {
     width: 50%;
 }
 
 .text-col h1 {
-    font-size: 40px;
+    font-size: 50px;
+    padding: 15px;
+
 }
 
 .text-col p {
@@ -117,14 +118,19 @@ nav li a {
     font-style: normal;
     color: grey;
     font-size: 16px;
+    padding: 15px;
+    margin-top: -35px;
 }
 
 .image-col {
     width: 50%;
+    height: 100%;
 }
 
 .image-col img {
     width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .heading-icon {
@@ -141,8 +147,6 @@ nav li a {
 height: 38px;
 width: 50px;
 }
-
-
 
 
 
@@ -170,25 +174,31 @@ width: 50px;
 
 }
 
+
+
 .family h1 {
-    font-size: 40px;
+    font-size: 50px;
 }
 
 
 .zoo {
     background-image: url(images/zoo.png);
-    width: 1140px;
+    background-size: cover;
     height: 753px;
     padding-top: 20px;
     background-repeat: no-repeat;
+    margin-bottom:-20px;
 }
 
+.zoo-info-container {
+    margin-left: 100px;
+    margin-top: 30px;
+}
 .zooinfo {
     background-color: rgba(139, 63, 8, 66%);
     width: 600px;
     height: 480px;
-    margin-left: 20px;
-    margin-top: 30px;
+    
     padding: 5px;
     font-family: aller, sans-serif;
     font-weight: 300;
@@ -200,7 +210,7 @@ width: 50px;
 }
 
 .zooinfo h1 {
-    font-size: 40px;
+    font-size: 50px;
     margin-top: 20px;
 }
 
@@ -214,6 +224,7 @@ width: 50px;
 .visitthezoo h2 {
     margin-bottom:0;
 }
+
 
 button {
     padding: 10px 15px;
@@ -250,7 +261,6 @@ button:hover {
 .visitthezoo {
     color: white;
     display: block;
-    margin-left: 55px;
 }
 
 .titles {
@@ -291,8 +301,12 @@ font-weight: 300;
 font-style: normal;
 font-size: 16px;
 color: #8B3F08;
-padding-left: 20px;
-padding-right: 20px;
+padding-left: 25.6px;
+padding-right: 25.6px;
+}
+
+.family .card {
+    height: 665px;
 }
 
 .crochunter {
@@ -303,12 +317,24 @@ font-style: normal;
 font-size: 16px;
     color: white;
     padding: 15px;
+    margin-top: 0px;
 }
 
 .crochunter h2 {
     text-align: center;
-    font-size: 40px;
+    font-size: 50px;
 }
+
+.crochunter .card-2 p {
+margin-top: -15px;
+}
+
+.crochunter .card-1 {
+    margin-top: -15px;
+    }
+    
+
+
 
 .cardsection {
  display: flex;
@@ -344,17 +370,21 @@ font-size: 16px;
 font-family: ronnia, sans-serif;
 font-weight: 600;
 font-style: normal;
-font-size: 40px;
+font-size: 50px;
 color: #D6B252;
 text-align: center;
+margin-bottom: 5px;
 }
 
+.achievements img {
+    margin-top: 48px;
+}
 
 .animals h1{
 font-family: ronnia, sans-serif;
 font-weight: 600;
 font-style: normal;
-font-size: 40px;
+font-size: 50px;
 color: #D6B252;
 text-align: center;
 }
@@ -398,13 +428,23 @@ font-size: 36px;
 }
 
 footer {
-background: #3D2E19;
-padding: 15px;
 color: #D6B252;
-font-family: alkaline-caps, sans-serif;
 font-weight: 700;
-font-style: normal;
-font-size: 18px;
+background: #3D2E19;
+padding: 25px;
+}
+
+.footer-content {
+  
+    font-family: alkaline-caps, sans-serif;
+    font-style: normal;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+.footerimg img{
+    padding: 5px;
 }
 
 
@@ -425,7 +465,7 @@ footer ul {
 }
 
 footer li a {
-    color: #D6B252;
+color: #D6B252;
 font-family: alkaline-caps, sans-serif;
 font-weight: 700;
 font-style: normal;
@@ -436,4 +476,12 @@ text-decoration: none;
 footer ul li {
     list-style: none;
 }
+
+.footerimg {
+    margin-left: 350px;
+    margin-top: 20px;
+}
+
+
+
 
