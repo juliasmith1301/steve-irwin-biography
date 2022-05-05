@@ -2,6 +2,7 @@ body {
     padding: 0;
     margin: 0;
 }
+
 .container {
     width: 1140px;
     margin: 25px auto;
@@ -10,7 +11,6 @@ body {
 .header {
     background-image: url(images/heroimage.png);
     height: 100vh;
-  
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
@@ -19,16 +19,16 @@ body {
 
 
 nav ul {
-display: flex;
-justify-content: space-between;   
-font-family: aller, sans-serif;
-font-weight: 400;
-font-style: normal;
+    display: flex;
+    justify-content: space-between;
+    font-family: aller, sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 li a:hover {
-    color:#EDD9BF;
-  }
+    color: #EDD9BF;
+}
 
 .navigation {
     display: flex;
@@ -54,7 +54,6 @@ li a:hover {
 
 nav ul li {
     list-style: none;
-   
 }
 
 nav li a {
@@ -66,7 +65,7 @@ nav li a {
 .bio {
     display: flex;
     gap: 15px;
-    margin-top: 20px; 
+    margin-top: 20px;
     font-family: aller, sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -74,14 +73,13 @@ nav li a {
     font-size: 16px;
 }
 
-
 .bio h1 {
     font-size: 40px;
 }
 
 .bio img {
-  width: 627px;
-  height: 525px;  
+    width: 627px;
+    height: 525px;
 }
 
 .growing {
@@ -102,6 +100,7 @@ nav li a {
     display: flex;
     flex-wrap: wrap;
 }
+
 .text-col {
     width: 50%;
 }
@@ -143,8 +142,8 @@ nav li a {
 }
 
 .growing .left-col img {
-height: 38px;
-width: 50px;
+    height: 38px;
+    width: 50px;
 }
 
 .family-card {
@@ -174,25 +173,24 @@ width: 50px;
     font-size: 55px;
 }
 
-
 .zoo {
     background-image: url(images/zoo.png);
     background-size: cover;
     height: 753px;
     padding-top: 20px;
     background-repeat: no-repeat;
-    margin-bottom:-20px;
+    margin-bottom: -20px;
 }
 
 .zoo-info-container {
     margin-left: 100px;
     margin-top: 30px;
 }
+
 .zooinfo {
     background-color: rgba(139, 63, 8, 66%);
     width: 600px;
     height: 480px;
-    
     padding: 5px;
     font-family: aller, sans-serif;
     font-weight: 300;
@@ -216,7 +214,7 @@ width: 50px;
 }
 
 .visitthezoo h2 {
-    margin-bottom:0;
+    margin-bottom: 0;
 }
 
 .zooinfo p {
@@ -239,10 +237,9 @@ button {
     cursor: pointer;
 }
 
-
 button:hover {
     background-color: #EDD9BF;
-  }
+}
 
 .zooinfo img {
     width: 89px;
@@ -252,6 +249,7 @@ button:hover {
 .animal-icon-cont {
     width: 60px;
 }
+
 .animal-icon {
     width: 100%;
 }
@@ -268,7 +266,6 @@ button:hover {
     gap: 10px;
 }
 
-
 h1 {
     font-family: ronnia, sans-serif;
     font-weight: 600;
@@ -276,13 +273,13 @@ h1 {
     color: #D6B252;
 }
 
- h2 {
+h2 {
     font-family: ronnia, sans-serif;
     font-weight: 600;
     font-style: normal;
- }
+}
 
- .card h2 {
+.card h2 {
     font-family: alkaline-caps, sans-serif;
     font-weight: 600;
     font-style: normal;
@@ -291,16 +288,16 @@ h1 {
     padding-top: 5px;
     margin-top: 10px;
     margin-bottom: 5px;
- }
+}
 
 .family p {
-font-family: aller, sans-serif;
-font-weight: 300;
-font-style: normal;
-font-size: 16px;
-color: #8B3F08;
-padding-left: 25.6px;
-padding-right: 25.6px;
+    font-family: aller, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #8B3F08;
+    padding-left: 25.6px;
+    padding-right: 25.6px;
 }
 
 .family .card {
@@ -324,17 +321,16 @@ padding-right: 25.6px;
 }
 
 .crochunter .card-2 p {
-margin-top: -20px;
+    margin-top: -20px;
 }
 
 .crochunter .card-1 {
     margin-top: -20px;
-    }
-    
+}
 
 .cardsection {
- display: flex;
- justify-content: center;
+    display: flex;
+    justify-content: center;
 }
 
 .card-1 {
@@ -352,45 +348,44 @@ margin-top: -20px;
     padding-right: 10px;
 }
 
-
 .achievements {
     font-family: aller, sans-serif;
     font-weight: 300;
     font-style: normal;
     font-size: 16px;
-        color: grey;
-        padding: 10px;
+    color: grey;
+    padding: 10px;
 }
 
 .achievements h2 {
-font-family: ronnia, sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 55px;
-color: #D6B252;
-text-align: center;
-margin-bottom: 5px;
+    font-family: ronnia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    color: #D6B252;
+    text-align: center;
+    margin-bottom: 5px;
 }
 
 .achievements img {
     margin-top: 48px;
 }
 
-.animals h1{
-font-family: ronnia, sans-serif;
-font-weight: 600;
-font-style: normal;
-font-size: 55px;
-color: #D6B252;
-text-align: center;
+.animals h1 {
+    font-family: ronnia, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 55px;
+    color: #D6B252;
+    text-align: center;
 }
 
 .animals h3 {
-font-family: aller, sans-serif;
-font-weight: 700;
-font-style: negreta;
-color: #8B3F08;
-font-size: 36px;
+    font-family: aller, sans-serif;
+    font-weight: 700;
+    font-style: negreta;
+    color: #8B3F08;
+    font-size: 36px;
 }
 
 .animals-section {
@@ -416,8 +411,9 @@ font-size: 36px;
     font-size: 16px;
     color: #8B3F08;
 }
+
 .animal-text h3 {
-    margin-top:50px;
+    margin-top: 50px;
 }
 
 .yellowbox {
@@ -427,14 +423,14 @@ font-size: 36px;
 }
 
 footer {
-color: #D6B252;
-font-weight: 700;
-background: #3D2E19;
-padding: 25px;
+    color: #D6B252;
+    font-weight: 700;
+    background: #3D2E19;
+    padding: 25px;
 }
 
 .footer-content {
-  
+
     font-family: alkaline-caps, sans-serif;
     font-style: normal;
     font-size: 18px;
@@ -442,18 +438,17 @@ padding: 25px;
     justify-content: center;
 }
 
-.footerimg img{
+.footerimg img {
     padding: 5px;
 }
 
-
 footer p {
-color: #D6B252;
-font-family: alkaline-caps, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 18px;
-margin-left: 130px;
+    color: #D6B252;
+    font-family: alkaline-caps, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    margin-left: 130px;
 }
 
 footer ul {
@@ -464,12 +459,12 @@ footer ul {
 }
 
 footer li a {
-color: #D6B252;
-font-family: alkaline-caps, sans-serif;
-font-weight: 700;
-font-style: normal;
-font-size: 18px;
-text-decoration: none;
+    color: #D6B252;
+    font-family: alkaline-caps, sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 18px;
+    text-decoration: none;
 }
 
 footer ul li {
@@ -480,7 +475,3 @@ footer ul li {
     margin-left: 350px;
     margin-top: 20px;
 }
-
-
-
-
