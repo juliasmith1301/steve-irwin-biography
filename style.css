@@ -228,13 +228,15 @@ button {
     background: #F8953D;
     color: white;
     display: block;
-    margin: 20px auto;
+    margin: 20px 10px;
     font-family: aller, sans-serif;
-    font-weight: 300;
+    font-weight: 700;
     font-style: normal;
     font-size: 14px;
     display: inline-block;
     cursor: pointer;
+    width: 180px;
+    text-transform: uppercase;
 }
 
 button:hover {
